@@ -12,7 +12,7 @@ FROM openjdk:17
 
 WORKDIR /app
 
-COPY - from=build /app/target/jenkins.jar .
+COPY --from=build /app/target/jenkins.jar .
 
 EXPOSE 8085
 
