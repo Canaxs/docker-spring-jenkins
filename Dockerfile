@@ -13,4 +13,4 @@ WORKDIR /app
 
 COPY - from=build /app/target/jenkins.jar .
 
-CMD ["java", "-jar", "jenkins.jar"]
+CMD ["java", "-jar", "/jenkins.jar"]
