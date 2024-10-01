@@ -4,10 +4,11 @@ version: '3.1'
 services:
   s_jenkins:
     container_name: c_jenkins
-    image: salihcantekin/jenkinswithdocker
+    image: canaxs/dockerimages
+    privileged: true
+    user: root
     ports:
       - 8080:8080
       - 50000:50000
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /jenkins_file:/var/jenkins_home
