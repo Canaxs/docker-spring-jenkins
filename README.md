@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Canaxs/docker-spring-jenkins">
-    <img src="https://www.cdnlogo.com/logos/j/2/jenkins.svg" alt="Logo" width="80" height="80">
+    <img src="https://www.cdnlogo.com/logos/j/2/jenkins.svg" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Docker Jenkins Spring Boot</h3>
